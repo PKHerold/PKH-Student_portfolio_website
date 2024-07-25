@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #71e9e9;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+section.active {
+    display: block;
+}
+
+ol, ul {
+    
+    text-align: center;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+#contact ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+#contact li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#contact img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+}
+
+.profile-image, .skills-image, .goals-image {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
